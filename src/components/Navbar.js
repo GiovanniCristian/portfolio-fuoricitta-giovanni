@@ -1,20 +1,21 @@
 import React from 'react'
+import logo from '../logo.png';
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg bg-navbar">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/"><img className='img-fluid logo-navbar' src={logo} alt='logo'/></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav mx-auto">
+        <li className="nav-item">
+          <a className="nav-link active" href="/">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/">Features</a>
+        <li className="nav-item">
+          <a className="nav-link active" href="/">Portfolio</a>
         </li>
       </ul>
     </div>

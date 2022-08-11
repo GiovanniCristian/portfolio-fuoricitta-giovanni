@@ -1,0 +1,79 @@
+:root {
+    --darkblue: rgb(2, 48, 71);
+    --cyan: rgb(33, 158, 188);
+    --lighblue: rgb(142, 202, 230);
+    --yellow: rgb(255, 183, 3);
+    --orange: rgb(251, 133, 0);
+
+}
+
+.text-darkblue {
+    color: var(--darkblue);
+}
+
+.text-cyan {
+    color: var(--cyan);
+}
+
+.text-lightblue {
+    color: var(--lightblue);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+/* NAVBAR */
+
+.bg-navbar {
+    background-color: var(--lighblue);
+    border-bottom: 2px solid var(--yellow);
+}
+
+.nav-link {
+    margin: 15px;
+    color: var(--darkblue) !important;
+    border-bottom: 2px solid var(--yellow);
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.logo-navbar {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-navbar:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 767.98px) {
+    .nav-link:hover {
+        transition: none;
+        transform: none;
+    }
+
+    ;
+}
+
+/* HEADER */
+
+.jumbotron {
+    background-image: url(https://picsum.photos/800);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-custom {
+    background-color: var(--cyan);
+}
