@@ -16,7 +16,7 @@ const Header = () => {
         />
     </div>
     
-    <div className="box my-5">
+    <div className="box my-2 mx-auto">
         <div className="content">
             <img className="img-fluid" src={me} alt="me" />
         </div>
