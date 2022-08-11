@@ -11,7 +11,11 @@ const Section = () => {
   return (
     <div className="container icon-section">
       <div className="row">
-        <div className="icon-list">
+        <div className="show mb-5 text-darkblue text-center">
+            <h2>Qui mostrerò le api</h2>
+        </div>
+
+        <div className="icon-list mt-4">
             <FontAwesomeIcon className="icons fa-2x" icon={faUser} />
             <FontAwesomeIcon className="icons fa-2x" icon={faEnvelope} />
             <FontAwesomeIcon className="icons fa-2x" icon={faCakeCandles} />
