@@ -33,7 +33,7 @@ body {
     background: linear-gradient(144deg, rgba(142, 202, 230, 1) 0%, rgba(34, 157, 186, 0.8953956582633054) 48%, rgba(255, 183, 3, 1) 100%);
 }
 
-/* HEADER */
+/* ////////// HEADER ////////// */
 
 .typed-text {
     color: var(--darkblue);
@@ -101,4 +101,27 @@ body {
     object-fit: cover;
     transition: 0.5s;
     pointer-events: none;
+}
+
+/* ////////// SECTION ICONS ////////// */
+
+.icon-section {
+    margin-top: 160px;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons {
+    color: var(--darkblue);
+    padding: 7px;
+    transition: 0.6s;
+}
+
+.icons:hover {
+    border-bottom: 2px solid var(--darkblue);
+    color: rgb(255, 240, 240);
+    transform: scale(1.25);
 }
